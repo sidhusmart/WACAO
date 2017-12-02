@@ -24,7 +24,7 @@ class WhatsAPIDriver(object):
 
     _SELECTORS = {
         'firstrun': "#wrapper",
-        'qrCode': "img[alt=\"Scan me !\"]",
+        'qrCode': "._2EZ_m > img:nth-child(4)",
         'mainPage': ".app.two",
         'chatList': ".infinite-list-viewport",
         'messageList': "#main > div > div:nth-child(1) > div > div.message-list",
@@ -189,14 +189,24 @@ class WhatsAPIDriver(object):
         messageCountKeyword = 'for last'
         chatKeyword = 'chats'
 
+        text = text.lower()
+
         groupStart = text.index(summarizeKeyword)
         countStart = text.index(messageCountKeyword)
         countEnd = text.index(chatKeyword)
 
-        groupName = text[groupStart+11:].strip()
+        groupName = text[groupStart+11:countStart].strip()
         chatHistory = text[countStart+8:countEnd].strip()
 
+        print groupName
+        print chatHistory
+        chats = self.get_n_messages(groupName, chatHistory)
 
+        print chats
+        messages = chats['messages']
+        print "Length: " + len(messages)
+        for message in messages:
+            print message['message']
 
     def monitorWACAO(self):
         try:
@@ -240,5 +250,28 @@ class WhatsAPIDriver(object):
                 time.sleep(5)
         except KeyboardInterrupt:
             print "Exited"
+
+    def createDummyData(self):
+        script_path = os.getcwd()
+        f = open(os.path.join(script_path, "text.txt"), "r")
+        for line in f:
+            msg = line.split()
+            i = 0
+            for m in msg:
+                if i < 40:
+                    self.send_to_whatsapp_id('Test group',m)
+                    i = i + 1
+
+    def view_unread_from_group(self):
+        try:
+            script_path = os.path.dirname(os.path.abspath(__file__))
+        except NameError:
+            script_path = os.getcwd()
+        script = open(os.path.join(script_path, "js_scripts/get_unread_messages_from_group.js"), "r").read()
+        Store = self.driver.execute_script(script, "Test")
+        print Store
+        messages = Store['messages']
+        for message in messages:
+            print message['message']
 
 
