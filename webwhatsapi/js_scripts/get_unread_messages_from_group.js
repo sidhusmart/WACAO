@@ -23,21 +23,20 @@ for (chat in Chats) {
     temp.contact = Chats[chat].__x_formattedTitle;
     temp.id = Chats[chat].__x_id;
     temp.messages = [];
+    console.log("K1: ",temp.contact)
+    console.log("K2: ",contact)
     if(typeof temp.contact != 'undefined' && temp.contact.search(contact)!=-1){
+        console.log("Into:")
         var messages = Chats[chat].msgs.models;
         for (var i = messages.length - 1; i >= 0; i--) {
-            if (!messages[i].__x_isNewMsg) {
-                break;
-            } else {
-                if (!isChatMessage(messages[i])) {
-                    continue
-                }
-                messages[i].__x_isNewMsg = false;
-                temp.messages.push({
-                    message: messages[i].__x_body,
-                    timestamp: messages[i].__x_t
-                });
+            if (!isChatMessage(messages[i])) {
+                continue
             }
+            messages[i].__x_isNewMsg = false;
+            temp.messages.push({
+                message: messages[i].__x_body,
+                timestamp: messages[i].__x_t
+            });
         }
     }
     if(temp.messages.length > 0) {
