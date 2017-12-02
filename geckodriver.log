@@ -1,0 +1,1273 @@
+1511652046813	geckodriver	INFO	geckodriver 0.19.1
+1511652046821	geckodriver	INFO	Listening on 127.0.0.1:36822
+1511652048017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.W5foX1OaC6ZA"
+1511652050634	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511652052184	Marionette	INFO	Enabled via --marionette
+1511652057274	Marionette	INFO	Listening on port 43266
+1511652057351	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511652057398	Marionette	DEBUG	Register listener.js for window 2147483649
+1511652057463	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511652058464	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511652058464	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511652058733	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511652061632	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511652810740	geckodriver	INFO	geckodriver 0.19.1
+1511652810748	geckodriver	INFO	Listening on 127.0.0.1:38808
+1511652811895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XRVcM6rTmmLK"
+1511652812127	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511652812738	Marionette	INFO	Enabled via --marionette
+1511652814993	Marionette	INFO	Listening on port 42215
+1511652815030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511652815089	Marionette	DEBUG	Register listener.js for window 2147483649
+1511652815128	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511652816364	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511652816364	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511652816626	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511652818028	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511653352994	geckodriver	INFO	geckodriver 0.19.1
+1511653353002	geckodriver	INFO	Listening on 127.0.0.1:36320
+1511653354091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RnvvECmfd6Wq"
+1511653354330	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511653354945	Marionette	INFO	Enabled via --marionette
+1511653357215	Marionette	INFO	Listening on port 42712
+1511653357313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511653357357	Marionette	DEBUG	Register listener.js for window 2147483649
+1511653357403	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511653358468	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511653358468	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511653358733	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511653360708	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511653514247	geckodriver	INFO	geckodriver 0.19.1
+1511653514255	geckodriver	INFO	Listening on 127.0.0.1:53636
+1511653515351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ADaDfkRJYekH"
+1511653515601	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511653516227	Marionette	INFO	Enabled via --marionette
+1511653518389	Marionette	INFO	Listening on port 44745
+1511653518469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511653518513	Marionette	DEBUG	Register listener.js for window 2147483649
+1511653518557	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511653519736	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511653519737	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511653520047	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511653521397	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511653661209	geckodriver	INFO	geckodriver 0.19.1
+1511653661218	geckodriver	INFO	Listening on 127.0.0.1:50705
+1511653662315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pCPmzxLmhubv"
+1511653662544	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511653663113	Marionette	INFO	Enabled via --marionette
+1511653665317	Marionette	INFO	Listening on port 39256
+1511653665358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511653665410	Marionette	DEBUG	Register listener.js for window 2147483649
+1511653665456	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511653667011	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511653667012	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511653667277	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511653668683	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511654155231	geckodriver	INFO	geckodriver 0.19.1
+1511654155240	geckodriver	INFO	Listening on 127.0.0.1:48195
+1511654156366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cTgPuciinN5l"
+1511654156603	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511654157205	Marionette	INFO	Enabled via --marionette
+1511654159473	Marionette	INFO	Listening on port 40560
+1511654159510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511654159563	Marionette	DEBUG	Register listener.js for window 2147483649
+1511654159611	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511654160680	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511654160680	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511654160975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511654162369	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1511655014582	geckodriver	INFO	geckodriver 0.19.1
+1511655014591	geckodriver	INFO	Listening on 127.0.0.1:39358
+1511655015684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bKUTRX8tZf3c"
+1511655015898	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511655016512	Marionette	INFO	Enabled via --marionette
+1511655018705	Marionette	INFO	Listening on port 33440
+1511655018805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511655018859	Marionette	DEBUG	Register listener.js for window 2147483649
+1511655018884	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511655020153	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511655020153	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511655020626	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511655022627	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1511655190352	Marionette	DEBUG	Register listener.js for window 2147483653
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_c7eeb3dc2c710caae05cc642b28787bc.css, using system principal instead.
+1511655412154	geckodriver	INFO	geckodriver 0.19.1
+1511655412157	geckodriver	INFO	Listening on 127.0.0.1:53283
+1511655413263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5tW65KVbncAo"
+1511655413491	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511655414082	Marionette	INFO	Enabled via --marionette
+1511655416343	Marionette	INFO	Listening on port 33183
+1511655416396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511655416447	Marionette	DEBUG	Register listener.js for window 2147483649
+1511655416492	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511655417425	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511655417426	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511655417624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511655419037	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+console.warn: notDebuggee: cannot access the environment of this function.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1511656556939	geckodriver	INFO	geckodriver 0.19.1
+1511656556947	geckodriver	INFO	Listening on 127.0.0.1:51409
+1511656558092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.f18igdLe5LKD"
+1511656558370	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511656558991	Marionette	INFO	Enabled via --marionette
+1511656561221	Marionette	INFO	Listening on port 34482
+1511656561310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511656561355	Marionette	DEBUG	Register listener.js for window 2147483649
+1511656561395	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511656562367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511656562368	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511656562628	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511656564007	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools.js, line 593: TypeError: inspector is undefined
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+[Parent 27208] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 27208] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1511700051051	geckodriver	INFO	geckodriver 0.19.1
+1511700051081	geckodriver	INFO	Listening on 127.0.0.1:49321
+1511700052267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kEInzrPnzvLM"
+1511700055125	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511700056579	Marionette	INFO	Enabled via --marionette
+1511700061817	Marionette	INFO	Listening on port 38118
+1511700061921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511700061976	Marionette	DEBUG	Register listener.js for window 2147483649
+1511700062116	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511700063344	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511700063345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511700064149	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511700068241	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_15a081149cbe1358bcc8a2e89d7b8932.css, using system principal instead.
+1511701092032	geckodriver	INFO	geckodriver 0.19.1
+1511701092039	geckodriver	INFO	Listening on 127.0.0.1:58704
+1511701093192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Rf0WoTAOw9YS"
+1511701093447	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1511701093994	Marionette	INFO	Enabled via --marionette
+1511701096260	Marionette	INFO	Listening on port 35713
+1511701096320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511701096374	Marionette	DEBUG	Register listener.js for window 2147483649
+1511701096403	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511701097390	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511701097390	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511701097765	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1511701099284	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 8389] WARNING: pipe error (51): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512223872122	geckodriver	INFO	geckodriver 0.19.1
+1512223872152	geckodriver	INFO	Listening on 127.0.0.1:58217
+1512223873349	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OVnemCzcukJ2"
+1512223876164	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512223877624	Marionette	INFO	Enabled via --marionette
+1512223882895	Marionette	INFO	Listening on port 44851
+1512223882948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512223883000	Marionette	DEBUG	Register listener.js for window 2147483649
+1512223883076	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512223914577	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512223914577	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512223944905	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1512223944983	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x41000B,name=PHttpBackgroundChannel::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x41000B,name=PHttpBackgroundChannel::Msg___delete__) Channel error: cannot send/recv
+
+1512223978983	geckodriver	INFO	geckodriver 0.19.1
+1512223978992	geckodriver	INFO	Listening on 127.0.0.1:59612
+1512223980171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s6T8YXar9LbP"
+1512223980424	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512223981138	Marionette	INFO	Enabled via --marionette
+1512223983428	Marionette	INFO	Listening on port 34714
+1512223983507	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512223983553	Marionette	DEBUG	Register listener.js for window 2147483649
+1512223983576	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512223985602	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512223985603	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512223986040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512224004981	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10901] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512224335236	geckodriver	INFO	geckodriver 0.19.1
+1512224335241	geckodriver	INFO	Listening on 127.0.0.1:38611
+1512224336372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.edwGSKZsFlXZ"
+1512224336608	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512224337167	Marionette	INFO	Enabled via --marionette
+1512224339431	Marionette	INFO	Listening on port 37940
+1512224339499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512224339551	Marionette	DEBUG	Register listener.js for window 2147483649
+1512224339600	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512224341326	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512224341326	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512224342458	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512224363650	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 12402] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512225092754	geckodriver	INFO	geckodriver 0.19.1
+1512225092763	geckodriver	INFO	Listening on 127.0.0.1:49003
+1512225093924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.S8rRm71Wd6G9"
+1512225094140	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225094754	Marionette	INFO	Enabled via --marionette
+1512225096852	Marionette	INFO	Listening on port 37180
+1512225096947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225096999	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225097024	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225097907	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225097907	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225098086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512225100405	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512225166361	geckodriver	INFO	geckodriver 0.19.1
+1512225166369	geckodriver	INFO	Listening on 127.0.0.1:43305
+1512225167525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2b41uarwCSIc"
+1512225167779	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225168379	Marionette	INFO	Enabled via --marionette
+1512225170481	Marionette	INFO	Listening on port 33436
+1512225170575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225170628	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225170660	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225174387	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225174387	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225174574	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512225182597	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 14847] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512225553987	geckodriver	INFO	geckodriver 0.19.1
+1512225553994	geckodriver	INFO	Listening on 127.0.0.1:52024
+1512225555156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.a4yrrAy3Ius1"
+1512225555386	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225556031	Marionette	INFO	Enabled via --marionette
+1512225558551	Marionette	INFO	Listening on port 37424
+1512225558587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225558630	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225558652	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225578663	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1512225579090	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225579091	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225587663	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512225700126	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1512225700192	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1512225702970	geckodriver	INFO	geckodriver 0.19.1
+1512225702978	geckodriver	INFO	Listening on 127.0.0.1:51155
+1512225704076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zLIRscHwOu6y"
+1512225704302	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225704920	Marionette	INFO	Enabled via --marionette
+1512225707366	Marionette	INFO	Listening on port 40759
+1512225707401	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225707448	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225707478	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225727501	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x860006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 14550] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512225750110	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225750138	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225750138	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225750140	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1512225750195	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1512225759279	geckodriver	INFO	geckodriver 0.19.1
+1512225759283	geckodriver	INFO	Listening on 127.0.0.1:58730
+1512225760444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OEtNrEVdgyTY"
+1512225760677	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225761263	Marionette	INFO	Enabled via --marionette
+1512225763527	Marionette	INFO	Listening on port 44948
+1512225763567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225763630	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225763678	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225783686	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1512225795735	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225795736	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225797185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512225856882	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512225983171	geckodriver	INFO	geckodriver 0.19.1
+1512225983178	geckodriver	INFO	Listening on 127.0.0.1:47174
+1512225984344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EYfH3HLZUbfV"
+1512225984566	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512225985108	Marionette	INFO	Enabled via --marionette
+1512225987259	Marionette	INFO	Listening on port 45855
+1512225987365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512225987415	Marionette	DEBUG	Register listener.js for window 2147483649
+1512225987443	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512225989153	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512225989154	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512225989485	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512226021203	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512226402940	geckodriver	INFO	geckodriver 0.19.1
+1512226402948	geckodriver	INFO	Listening on 127.0.0.1:44799
+1512226404100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lU9VmEnHb4qe"
+1512226404318	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512226404920	Marionette	INFO	Enabled via --marionette
+1512226407115	Marionette	INFO	Listening on port 39314
+1512226407221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512226407272	Marionette	DEBUG	Register listener.js for window 2147483649
+1512226407294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512226408477	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512226408478	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512226409229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512226443339	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 17106] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512226473483	geckodriver	INFO	geckodriver 0.19.1
+1512226473491	geckodriver	INFO	Listening on 127.0.0.1:57383
+1512226474602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eLccQL8Wrd7N"
+1512226474828	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512226475419	Marionette	INFO	Enabled via --marionette
+1512226477642	Marionette	INFO	Listening on port 43844
+1512226477718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512226477758	Marionette	DEBUG	Register listener.js for window 2147483649
+1512226477781	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512226481314	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512226481314	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512226483187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512226498971	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512226579838	geckodriver	INFO	geckodriver 0.19.1
+1512226579846	geckodriver	INFO	Listening on 127.0.0.1:59772
+1512226580944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AmJCtSEwZCRk"
+1512226581152	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512226581765	Marionette	INFO	Enabled via --marionette
+1512226584064	Marionette	INFO	Listening on port 41293
+1512226584188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512226584241	Marionette	DEBUG	Register listener.js for window 2147483649
+1512226584271	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512226585260	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512226585261	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512226585621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512226592431	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512227563588	geckodriver	INFO	geckodriver 0.19.1
+1512227563594	geckodriver	INFO	Listening on 127.0.0.1:34751
+1512227564740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Rg4h0Y9rMJzj"
+1512227565004	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512227565550	Marionette	INFO	Enabled via --marionette
+1512227567931	Marionette	INFO	Listening on port 36171
+1512227567973	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512227568026	Marionette	DEBUG	Register listener.js for window 2147483649
+1512227568075	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512227568976	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512227568977	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512227569143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512227571578	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512227626385	geckodriver	INFO	geckodriver 0.19.1
+1512227626388	geckodriver	INFO	Listening on 127.0.0.1:60547
+1512227627550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v1aPBHPAcjZR"
+1512227627767	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512227628352	Marionette	INFO	Enabled via --marionette
+1512227630527	Marionette	INFO	Listening on port 40037
+1512227630595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512227630665	Marionette	DEBUG	Register listener.js for window 2147483649
+1512227630700	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512227631852	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512227631852	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512227631978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512227633633	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512227766738	geckodriver	INFO	geckodriver 0.19.1
+1512227766744	geckodriver	INFO	Listening on 127.0.0.1:35326
+1512227767901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ery861zskA9K"
+1512227768112	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512227768728	Marionette	INFO	Enabled via --marionette
+1512227770902	Marionette	INFO	Listening on port 40572
+1512227770929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512227770987	Marionette	DEBUG	Register listener.js for window 2147483649
+1512227771021	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512227772540	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512227772540	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512227772781	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512227776165	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1512228094640	geckodriver	INFO	geckodriver 0.19.1
+1512228094647	geckodriver	INFO	Listening on 127.0.0.1:34205
+1512228095816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zjB1nmx8SOsF"
+1512228096034	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228096639	Marionette	INFO	Enabled via --marionette
+1512228098894	Marionette	INFO	Listening on port 37028
+1512228098948	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228098992	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228099039	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228099915	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228099916	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228100031	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228101734	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512228204577	geckodriver	INFO	geckodriver 0.19.1
+1512228204580	geckodriver	INFO	Listening on 127.0.0.1:49641
+1512228205737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YHpVpMXhmuSl"
+1512228206014	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228206619	Marionette	INFO	Enabled via --marionette
+1512228208757	Marionette	INFO	Listening on port 33718
+1512228208864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228208911	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228208950	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228209836	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228209836	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228210114	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228212886	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512228212908	geckodriver	INFO	geckodriver 0.19.1
+1512228212915	geckodriver	INFO	Listening on 127.0.0.1:38324
+1512228214017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xaweM9j6o6ls"
+1512228214233	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228215200	Marionette	INFO	Enabled via --marionette
+1512228218000	Marionette	INFO	Listening on port 34011
+1512228218059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228218110	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228218144	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228219124	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228219124	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228219274	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228221134	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512228391814	geckodriver	INFO	geckodriver 0.19.1
+1512228391818	geckodriver	INFO	Listening on 127.0.0.1:60775
+1512228392955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sVjWMTWTowyM"
+1512228393167	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228393768	Marionette	INFO	Enabled via --marionette
+1512228396070	Marionette	INFO	Listening on port 33424
+1512228396182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228396228	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228396256	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228397154	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228397155	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228397378	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228399729	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512228498945	geckodriver	INFO	geckodriver 0.19.1
+1512228498949	geckodriver	INFO	Listening on 127.0.0.1:39526
+1512228500116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SAvRbni9eKb4"
+1512228500376	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228500984	Marionette	INFO	Enabled via --marionette
+1512228503233	Marionette	INFO	Listening on port 37921
+1512228503336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228503383	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228503416	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228504427	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228504428	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228504758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228519139	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 30132] WARNING: pipe error (107): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 30182] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 30182] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 30182] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512228834122	geckodriver	INFO	geckodriver 0.19.1
+1512228834126	geckodriver	INFO	Listening on 127.0.0.1:60422
+1512228835272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wB38gtddaPLB"
+1512228835545	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512228836136	Marionette	INFO	Enabled via --marionette
+1512228838422	Marionette	INFO	Listening on port 33887
+1512228838491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512228838536	Marionette	DEBUG	Register listener.js for window 2147483649
+1512228838590	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512228839351	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512228839351	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512228839488	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512228841531	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512229113617	geckodriver	INFO	geckodriver 0.19.1
+1512229113620	geckodriver	INFO	Listening on 127.0.0.1:57284
+1512229114764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aDDix0VrAivj"
+1512229114979	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512229115533	Marionette	INFO	Enabled via --marionette
+1512229117726	Marionette	INFO	Listening on port 43717
+1512229117798	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512229117845	Marionette	DEBUG	Register listener.js for window 2147483649
+1512229117881	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512229118734	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512229118734	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512229118867	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512229120966	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512229353506	geckodriver	INFO	geckodriver 0.19.1
+1512229353511	geckodriver	INFO	Listening on 127.0.0.1:51357
+1512229354671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bLKusL0fkM6B"
+1512229354953	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512229355513	Marionette	INFO	Enabled via --marionette
+1512229357634	Marionette	INFO	Listening on port 37108
+1512229357699	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512229357757	Marionette	DEBUG	Register listener.js for window 2147483649
+1512229357801	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512229358640	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512229358641	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512229358794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512229361557	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512229646728	geckodriver	INFO	geckodriver 0.19.1
+1512229646733	geckodriver	INFO	Listening on 127.0.0.1:48134
+1512229647880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eXtwYUVkbekT"
+1512229648121	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512229648765	Marionette	INFO	Enabled via --marionette
+1512229651263	Marionette	INFO	Listening on port 36064
+1512229651352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512229651448	Marionette	DEBUG	Register listener.js for window 2147483649
+1512229651513	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512229652128	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512229652129	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512229652345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512229654773	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512229726697	geckodriver	INFO	geckodriver 0.19.1
+1512229726701	geckodriver	INFO	Listening on 127.0.0.1:48646
+1512229727854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QNkQXCDnRiv2"
+1512229728070	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512229728654	Marionette	INFO	Enabled via --marionette
+1512229730920	Marionette	INFO	Listening on port 36520
+1512229730974	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512229731020	Marionette	DEBUG	Register listener.js for window 2147483649
+1512229731051	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512229732238	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512229732239	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512229732486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512229741100	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512229990659	geckodriver	INFO	geckodriver 0.19.1
+1512229990664	geckodriver	INFO	Listening on 127.0.0.1:54251
+1512229991820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rCHBdonkPBlu"
+1512229992034	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512229992615	Marionette	INFO	Enabled via --marionette
+1512229994820	Marionette	INFO	Listening on port 35948
+1512229994856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512229994900	Marionette	DEBUG	Register listener.js for window 2147483649
+1512229994945	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512229996062	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512229996063	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512229996247	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512230001798	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512231324567	geckodriver	INFO	geckodriver 0.19.1
+1512231324570	geckodriver	INFO	Listening on 127.0.0.1:48732
+1512231325720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CFMm33iqQnx6"
+1512231325932	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512231326505	Marionette	INFO	Enabled via --marionette
+1512231328656	Marionette	INFO	Listening on port 42282
+1512231328740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512231328785	Marionette	DEBUG	Register listener.js for window 2147483649
+1512231328822	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512231329942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512231329943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512231330224	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512231333095	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512231434927	geckodriver	INFO	geckodriver 0.19.1
+1512231434930	geckodriver	INFO	Listening on 127.0.0.1:38705
+1512231436092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VJ5OBWBEFKSj"
+1512231436340	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512231436909	Marionette	INFO	Enabled via --marionette
+1512231439089	Marionette	INFO	Listening on port 35041
+1512231439126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512231439171	Marionette	DEBUG	Register listener.js for window 2147483649
+1512231439203	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512231440294	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512231440295	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512231440465	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512231442888	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512232145192	geckodriver	INFO	geckodriver 0.19.1
+1512232145198	geckodriver	INFO	Listening on 127.0.0.1:43725
+1512232146359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OAO4WRa08bkF"
+1512232146599	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512232147177	Marionette	INFO	Enabled via --marionette
+1512232149364	Marionette	INFO	Listening on port 36254
+1512232149420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512232149469	Marionette	DEBUG	Register listener.js for window 2147483649
+1512232149515	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512232150465	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512232150466	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512232150656	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512232152921	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512232437370	geckodriver	INFO	geckodriver 0.19.1
+1512232437375	geckodriver	INFO	Listening on 127.0.0.1:46369
+1512232438530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oM9S0mDAcEOK"
+1512232438791	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512232439367	Marionette	INFO	Enabled via --marionette
+1512232441538	Marionette	INFO	Listening on port 37053
+1512232441582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512232441647	Marionette	DEBUG	Register listener.js for window 2147483649
+1512232441688	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512232442626	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512232442627	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512232442760	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512232446187	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512232812621	geckodriver	INFO	geckodriver 0.19.1
+1512232812624	geckodriver	INFO	Listening on 127.0.0.1:40193
+1512232813789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aPI4zsHUNYsv"
+1512232814027	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512232814631	Marionette	INFO	Enabled via --marionette
+1512232817153	Marionette	INFO	Listening on port 46379
+1512232817219	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512232817277	Marionette	DEBUG	Register listener.js for window 2147483649
+1512232817307	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512232818215	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512232818216	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512232818372	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512232820522	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512232959614	geckodriver	INFO	geckodriver 0.19.1
+1512232959617	geckodriver	INFO	Listening on 127.0.0.1:34692
+1512232960771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WYLNcj3N93jv"
+1512232961038	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512232961649	Marionette	INFO	Enabled via --marionette
+1512232963861	Marionette	INFO	Listening on port 43236
+1512232963902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512232963960	Marionette	DEBUG	Register listener.js for window 2147483649
+1512232964000	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512232965132	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512232965132	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512232965285	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512232967459	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512233184131	geckodriver	INFO	geckodriver 0.19.1
+1512233184134	geckodriver	INFO	Listening on 127.0.0.1:37952
+1512233185287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SH76cmBtDzYC"
+1512233185502	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512233186095	Marionette	INFO	Enabled via --marionette
+1512233188524	Marionette	INFO	Listening on port 34458
+1512233188620	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512233188664	Marionette	DEBUG	Register listener.js for window 2147483649
+1512233188708	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512233189524	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512233189524	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512233189678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512233191868	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512233349207	geckodriver	INFO	geckodriver 0.19.1
+1512233349213	geckodriver	INFO	Listening on 127.0.0.1:34142
+1512233350360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.akEGHiy4rja2"
+1512233350645	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512233351174	Marionette	INFO	Enabled via --marionette
+1512233353338	Marionette	INFO	Listening on port 44424
+1512233353384	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512233353451	Marionette	DEBUG	Register listener.js for window 2147483649
+1512233353495	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512233354507	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512233354508	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512233354698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512233357145	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512233615159	geckodriver	INFO	geckodriver 0.19.1
+1512233615163	geckodriver	INFO	Listening on 127.0.0.1:60442
+1512233616331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LgH5CrKm2HKW"
+1512233616563	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512233617132	Marionette	INFO	Enabled via --marionette
+1512233619443	Marionette	INFO	Listening on port 42129
+1512233619567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512233619615	Marionette	DEBUG	Register listener.js for window 2147483649
+1512233619654	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512233620507	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512233620507	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512233620705	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512233622699	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512233724812	geckodriver	INFO	geckodriver 0.19.1
+1512233724816	geckodriver	INFO	Listening on 127.0.0.1:33239
+1512233725982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8iflBiF7q8tH"
+1512233726199	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512233726871	Marionette	INFO	Enabled via --marionette
+1512233729052	Marionette	INFO	Listening on port 38172
+1512233729118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512233729166	Marionette	DEBUG	Register listener.js for window 2147483649
+1512233729197	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512233730242	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512233730243	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512233730522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512233734165	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512233966305	geckodriver	INFO	geckodriver 0.19.1
+1512233966311	geckodriver	INFO	Listening on 127.0.0.1:39772
+1512233967475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1JLj5nLubTd3"
+1512233967732	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512233968331	Marionette	INFO	Enabled via --marionette
+1512233970665	Marionette	INFO	Listening on port 34627
+1512233970709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512233970767	Marionette	DEBUG	Register listener.js for window 2147483649
+1512233970823	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512233971941	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512233971941	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512233972086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512233973675	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512234097548	geckodriver	INFO	geckodriver 0.19.1
+1512234097552	geckodriver	INFO	Listening on 127.0.0.1:45605
+1512234098705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.g32PE5jTbAn0"
+1512234098946	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512234099524	Marionette	INFO	Enabled via --marionette
+1512234101748	Marionette	INFO	Listening on port 38419
+1512234101826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512234101892	Marionette	DEBUG	Register listener.js for window 2147483649
+1512234101921	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512234102796	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512234102797	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512234102945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512234105184	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512235076909	geckodriver	INFO	geckodriver 0.19.1
+1512235076912	geckodriver	INFO	Listening on 127.0.0.1:33379
+1512235078080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.m8EZ7kVB1HcL"
+1512235078318	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512235078876	Marionette	INFO	Enabled via --marionette
+1512235081043	Marionette	INFO	Listening on port 39409
+1512235081116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512235081162	Marionette	DEBUG	Register listener.js for window 2147483649
+1512235081192	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512235082140	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512235082140	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512235082273	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512235084519	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Child 15715] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512235417621	geckodriver	INFO	geckodriver 0.19.1
+1512235417624	geckodriver	INFO	Listening on 127.0.0.1:53532
+1512235418774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ftBXqpYadfxp"
+1512235419012	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512235419686	Marionette	INFO	Enabled via --marionette
+1512235421952	Marionette	INFO	Listening on port 36655
+1512235422015	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512235422077	Marionette	DEBUG	Register listener.js for window 2147483649
+1512235422139	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512235423071	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512235423071	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512235423185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512235424818	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512235571181	geckodriver	INFO	geckodriver 0.19.1
+1512235571186	geckodriver	INFO	Listening on 127.0.0.1:59688
+1512235572342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xnudAuPOy8K0"
+1512235572579	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512235573161	Marionette	INFO	Enabled via --marionette
+1512235575834	Marionette	INFO	Listening on port 36538
+1512235575879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512235575940	Marionette	DEBUG	Register listener.js for window 2147483649
+1512235575985	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512235577109	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512235577110	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512235577250	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512235579328	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 16424] WARNING: pipe error (111): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512235874566	geckodriver	INFO	geckodriver 0.19.1
+1512235874569	geckodriver	INFO	Listening on 127.0.0.1:54064
+1512235875726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uylY96u6M2BS"
+1512235875962	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512235876534	Marionette	INFO	Enabled via --marionette
+1512235878740	Marionette	INFO	Listening on port 38031
+1512235878845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512235878895	Marionette	DEBUG	Register listener.js for window 2147483649
+1512235878940	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512235879885	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512235879885	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512235880088	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512235882305	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512235967663	geckodriver	INFO	geckodriver 0.19.1
+1512235967666	geckodriver	INFO	Listening on 127.0.0.1:55943
+1512235968821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rZviKOmI8WbV"
+1512235969064	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512235969666	Marionette	INFO	Enabled via --marionette
+1512235971846	Marionette	INFO	Listening on port 42778
+1512235971966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512235972013	Marionette	DEBUG	Register listener.js for window 2147483649
+1512235972058	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512235974020	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512235974021	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512235974201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512235976965	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512236240299	geckodriver	INFO	geckodriver 0.19.1
+1512236240303	geckodriver	INFO	Listening on 127.0.0.1:34783
+1512236241463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pAeaVbMohp7U"
+1512236241693	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512236242256	Marionette	INFO	Enabled via --marionette
+1512236244525	Marionette	INFO	Listening on port 40816
+1512236244588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512236244631	Marionette	DEBUG	Register listener.js for window 2147483649
+1512236244668	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512236245873	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512236245873	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512236246019	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512236249205	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512236355460	Marionette	DEBUG	Register listener.js for window 4294967297
+1512237446391	geckodriver	INFO	geckodriver 0.19.1
+1512237446395	geckodriver	INFO	Listening on 127.0.0.1:60370
+1512237447563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pDbbg1McmPuN"
+1512237447814	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512237448411	Marionette	INFO	Enabled via --marionette
+1512237450614	Marionette	INFO	Listening on port 44638
+1512237450725	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512237450773	Marionette	DEBUG	Register listener.js for window 2147483649
+1512237450929	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400C4,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1512237459683	geckodriver	INFO	geckodriver 0.19.1
+1512237459691	geckodriver	INFO	Listening on 127.0.0.1:39660
+1512237460854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8Lr7o6x9oFej"
+1512237461075	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512237461691	Marionette	INFO	Enabled via --marionette
+1512237464015	Marionette	INFO	Listening on port 46013
+1512237464078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512237464126	Marionette	DEBUG	Register listener.js for window 2147483649
+1512237464160	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512237465188	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512237465189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512237465735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512237468336	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools.js, line 593: TypeError: inspector is undefined
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512237732253	geckodriver	INFO	geckodriver 0.19.1
+1512237732257	geckodriver	INFO	Listening on 127.0.0.1:47806
+1512237733434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RgcbF2cjNFuU"
+1512237733661	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512237734226	Marionette	INFO	Enabled via --marionette
+1512237736483	Marionette	INFO	Listening on port 34140
+1512237736567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512237736616	Marionette	DEBUG	Register listener.js for window 2147483649
+1512237736642	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512237737654	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512237737654	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512237737875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512237742072	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512237936374	geckodriver	INFO	geckodriver 0.19.1
+1512237936378	geckodriver	INFO	Listening on 127.0.0.1:44079
+1512237937540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yUHtX11B58B4"
+1512237937817	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512237938499	Marionette	INFO	Enabled via --marionette
+1512237940636	Marionette	INFO	Listening on port 39863
+1512237940672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512237940731	Marionette	DEBUG	Register listener.js for window 2147483649
+1512237940771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512237941708	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512237941709	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512237942071	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512237944622	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+[Parent 22172] WARNING: pipe error (105): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1512238043987	geckodriver	INFO	geckodriver 0.19.1
+1512238043991	geckodriver	INFO	Listening on 127.0.0.1:59808
+1512238045089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yovxaiVUxn0S"
+1512238045325	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512238045907	Marionette	INFO	Enabled via --marionette
+1512238048124	Marionette	INFO	Listening on port 35032
+1512238048216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512238048263	Marionette	DEBUG	Register listener.js for window 2147483649
+1512238048302	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512238049136	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512238049137	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512238049369	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512238052815	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512238314750	geckodriver	INFO	geckodriver 0.19.1
+1512238314753	geckodriver	INFO	Listening on 127.0.0.1:42322
+1512238315912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5IoksPVe3pLv"
+1512238316131	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512238316749	Marionette	INFO	Enabled via --marionette
+1512238318904	Marionette	INFO	Listening on port 44673
+1512238318940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512238319014	Marionette	DEBUG	Register listener.js for window 2147483649
+1512238319065	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512238320152	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512238320152	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512238320353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512238327992	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512238782834	geckodriver	INFO	geckodriver 0.19.1
+1512238782837	geckodriver	INFO	Listening on 127.0.0.1:51021
+1512238783987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3Kof8h2yA1tJ"
+1512238784240	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512238784791	Marionette	INFO	Enabled via --marionette
+1512238787001	Marionette	INFO	Listening on port 38109
+1512238787108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512238787160	Marionette	DEBUG	Register listener.js for window 2147483649
+1512238787189	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512238788168	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512238788168	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512238788313	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512238790691	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512238976802	geckodriver	INFO	geckodriver 0.19.1
+1512238976806	geckodriver	INFO	Listening on 127.0.0.1:37032
+1512238977968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6eanP4sMJpf0"
+1512238978221	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512238978802	Marionette	INFO	Enabled via --marionette
+1512238980981	Marionette	INFO	Listening on port 41058
+1512238981106	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512238981166	Marionette	DEBUG	Register listener.js for window 2147483649
+1512238981201	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512238982165	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512238982166	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512238982342	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512238985467	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512239242924	geckodriver	INFO	geckodriver 0.19.1
+1512239242927	geckodriver	INFO	Listening on 127.0.0.1:42824
+1512239244085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LjRMw83ohhdo"
+1512239244316	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512239244878	Marionette	INFO	Enabled via --marionette
+1512239246870	Marionette	INFO	Listening on port 44500
+1512239246935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512239246984	Marionette	DEBUG	Register listener.js for window 2147483649
+1512239247042	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512239248101	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512239248102	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512239248280	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512239251324	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512239388913	geckodriver	INFO	geckodriver 0.19.1
+1512239388918	geckodriver	INFO	Listening on 127.0.0.1:39958
+1512239390083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yghIhKAmqw3s"
+1512239390314	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512239390914	Marionette	INFO	Enabled via --marionette
+1512239393057	Marionette	INFO	Listening on port 33893
+1512239393112	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512239393158	Marionette	DEBUG	Register listener.js for window 2147483649
+1512239393205	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512239394317	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512239394317	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512239394487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512239396452	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512242595244	geckodriver	INFO	geckodriver 0.19.1
+1512242595251	geckodriver	INFO	Listening on 127.0.0.1:47366
+1512242596408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.66HHzTkoFLCB"
+1512242596663	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512242597266	Marionette	INFO	Enabled via --marionette
+1512242599514	Marionette	INFO	Listening on port 36306
+1512242599550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512242599616	Marionette	DEBUG	Register listener.js for window 2147483649
+1512242599685	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512242601297	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512242601298	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512242601466	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512242603226	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 31612] WARNING: pipe error (52): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1512242635893	geckodriver	INFO	geckodriver 0.19.1
+1512242635896	geckodriver	INFO	Listening on 127.0.0.1:54526
+1512242637042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.O7aTKMIOxBO7"
+1512242637286	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512242637941	Marionette	INFO	Enabled via --marionette
+1512242640339	Marionette	INFO	Listening on port 45835
+1512242640382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512242640434	Marionette	DEBUG	Register listener.js for window 2147483649
+1512242640487	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512242641479	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512242641480	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512242641718	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512242645204	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512242958770	geckodriver	INFO	geckodriver 0.19.1
+1512242958776	geckodriver	INFO	Listening on 127.0.0.1:43843
+1512242959947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4RXcDDh2XYsh"
+1512242960168	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512242960750	Marionette	INFO	Enabled via --marionette
+1512242963164	Marionette	INFO	Listening on port 33962
+1512242963269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512242963318	Marionette	DEBUG	Register listener.js for window 2147483649
+1512242963356	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512242964232	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512242964232	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512242964391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512242966684	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1512243151303	geckodriver	INFO	geckodriver 0.19.1
+1512243151308	geckodriver	INFO	Listening on 127.0.0.1:47866
+1512243152466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6XpYuLI8mz1q"
+1512243153272	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512243153901	Marionette	INFO	Enabled via --marionette
+1512243156136	Marionette	INFO	Listening on port 42815
+1512243156202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512243156261	Marionette	DEBUG	Register listener.js for window 2147483649
+1512243156308	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512243157349	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512243157349	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512243157685	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512243162887	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/devtools.js, line 593: TypeError: inspector is undefined
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512243475276	geckodriver	INFO	geckodriver 0.19.1
+1512243475280	geckodriver	INFO	Listening on 127.0.0.1:49785
+1512243476439	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tPe8O92P4um3"
+1512243476686	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512243477307	Marionette	INFO	Enabled via --marionette
+1512243479448	Marionette	INFO	Listening on port 35410
+1512243479562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512243479625	Marionette	DEBUG	Register listener.js for window 2147483649
+1512243479688	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512243480559	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512243480559	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512243480714	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512243482504	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512243560806	geckodriver	INFO	geckodriver 0.19.1
+1512243560809	geckodriver	INFO	Listening on 127.0.0.1:58039
+1512243561973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7eM04mMf1cUt"
+1512243562212	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512243562775	Marionette	INFO	Enabled via --marionette
+1512243565009	Marionette	INFO	Listening on port 32827
+1512243565092	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512243565146	Marionette	DEBUG	Register listener.js for window 2147483649
+1512243565180	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512243566282	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512243566283	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512243566411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512243568714	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512243634859	geckodriver	INFO	geckodriver 0.19.1
+1512243634862	geckodriver	INFO	Listening on 127.0.0.1:53996
+1512243636021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pm7TY2Hb82HD"
+1512243636260	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512243636836	Marionette	INFO	Enabled via --marionette
+1512243639434	Marionette	INFO	Listening on port 35041
+1512243639484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512243639553	Marionette	DEBUG	Register listener.js for window 2147483649
+1512243639608	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512243640501	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512243640501	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512243640711	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512243643058	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+JavaScript error: , line 0: uncaught exception: No ServiceWorker controlling this client.
+1512243920605	geckodriver	INFO	geckodriver 0.19.1
+1512243920608	geckodriver	INFO	Listening on 127.0.0.1:53432
+1512243921765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tGKJ1DO6LUlU"
+1512243922100	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512243922672	Marionette	INFO	Enabled via --marionette
+1512243925032	Marionette	INFO	Listening on port 46122
+1512243925099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512243925154	Marionette	DEBUG	Register listener.js for window 2147483649
+1512243925196	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512243926252	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512243926253	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512243926429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512243928793	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/cssm_b1c1828690caf0e2cce3725c9875cfaa.css, using system principal instead.
+1512244159821	geckodriver	INFO	geckodriver 0.19.1
+1512244159825	geckodriver	INFO	Listening on 127.0.0.1:42273
+1512244160957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mK0TmQmqENg6"
+1512244161276	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512244161924	Marionette	INFO	Enabled via --marionette
+1512244164239	Marionette	INFO	Listening on port 43649
+1512244164277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512244164340	Marionette	DEBUG	Register listener.js for window 2147483649
+1512244164400	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512244165334	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512244165335	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512244165494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512244168772	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512244354312	geckodriver	INFO	geckodriver 0.19.1
+1512244354316	geckodriver	INFO	Listening on 127.0.0.1:42603
+1512244355467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TCDbaFgzGCV7"
+1512244355714	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512244356348	Marionette	INFO	Enabled via --marionette
+1512244359131	Marionette	INFO	Listening on port 45232
+1512244359215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512244359296	Marionette	DEBUG	Register listener.js for window 2147483649
+1512244359395	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512244360342	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512244360342	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512244360538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512244363235	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512244536307	geckodriver	INFO	geckodriver 0.19.1
+1512244536310	geckodriver	INFO	Listening on 127.0.0.1:46744
+1512244536445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kxjxrbNCr6q5"
+1512244536693	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512244537316	Marionette	INFO	Enabled via --marionette
+1512244539562	Marionette	INFO	Listening on port 41246
+1512244539667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512244539720	Marionette	DEBUG	Register listener.js for window 2147483649
+1512244539749	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512244540583	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512244540583	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512244540745	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512244542685	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+[Parent 5797] WARNING: pipe error: Broken pipe: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 5797] WARNING: pipe error: Broken pipe: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1512244702918	geckodriver	INFO	geckodriver 0.19.1
+1512244702921	geckodriver	INFO	Listening on 127.0.0.1:45252
+1512244704074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.t32sLqrFFde3"
+1512244704310	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512244704923	Marionette	INFO	Enabled via --marionette
+1512244707124	Marionette	INFO	Listening on port 43048
+1512244707233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512244707289	Marionette	DEBUG	Register listener.js for window 2147483649
+1512244707344	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512244707946	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512244707947	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512244708147	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512244710423	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+console.error: 
+  stylesheets actor: fetch failed for https://web.whatsapp.com/style_061c5bc8a380b5b7f5e66b2e105b4a4c.css, using system principal instead.
+1512245018816	geckodriver	INFO	geckodriver 0.19.1
+1512245018819	geckodriver	INFO	Listening on 127.0.0.1:55407
+1512245019958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fmDtvtpfyImn"
+1512245020230	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512245020851	Marionette	INFO	Enabled via --marionette
+1512245023127	Marionette	INFO	Listening on port 36515
+1512245023189	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512245023241	Marionette	DEBUG	Register listener.js for window 2147483649
+1512245023291	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512245024180	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512245024181	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512245024351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512245026939	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512245213235	geckodriver	INFO	geckodriver 0.19.1
+1512245213239	geckodriver	INFO	Listening on 127.0.0.1:36295
+1512245214384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YoVTbtuZOLvB"
+1512245214641	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512245215261	Marionette	INFO	Enabled via --marionette
+1512245217459	Marionette	INFO	Listening on port 39638
+1512245217510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512245217567	Marionette	DEBUG	Register listener.js for window 2147483649
+1512245217620	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512245218487	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512245218487	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512245218757	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512245222442	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
+1512246694869	geckodriver	INFO	geckodriver 0.19.1
+1512246694873	geckodriver	INFO	Listening on 127.0.0.1:38449
+1512246696001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1uo0zverYBql"
+1512246696243	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1512246696853	Marionette	INFO	Enabled via --marionette
+1512246699086	Marionette	INFO	Listening on port 45930
+1512246699122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512246699180	Marionette	DEBUG	Register listener.js for window 2147483649
+1512246699232	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512246700473	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512246700473	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512246700654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://web.whatsapp.com/"
+1512246703721	Marionette	DEBUG	Received DOM event "pageshow" for "https://web.whatsapp.com/"
