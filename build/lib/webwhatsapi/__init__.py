@@ -193,6 +193,19 @@ class WhatsAPIDriver(object):
         self.send_to_whatsapp_id(contactDetect,translatedText)
         self._translateContacts.append(contactDetect)
 
+    def wishBirthday(self, text):
+        summarizeKeyword = 'hbd -'
+
+        text = text.lower()
+
+        groupStart = text.index(summarizeKeyword)
+
+        groupName = text[groupStart+6:].strip()
+
+        birthdayMessage = "Hey " + groupName + ", Here's wishing you a great birthday. Hope you have many many wonderful years ahead"
+
+        self.send_to_whatsapp_id(groupName, birthdayMessage)
+
     def summarizeChats(self, text):
         summarizeKeyword = 'summarize -'
 
@@ -275,6 +288,8 @@ class WhatsAPIDriver(object):
                                 self.translateMessage(text)
                             if ('Summarize' in text):
                                 self.summarizeChats(text)
+                            if ('HBD' in text):
+                                self.wishBirthday(text)
 
                 # Listening to incoming messages for task specific responses
                 incomingChats = self.view_unread()
