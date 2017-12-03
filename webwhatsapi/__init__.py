@@ -219,23 +219,25 @@ class WhatsAPIDriver(object):
         inputLine = ''
         for message in messages:
             if '\\/' not in message:
-                inputLine = inputLine + message['message'] + ' '
-        blob = TextBlob(inputLine)
-        wordCounts = blob.word_counts
-        sortedWordCounts = sorted(wordCounts, key=wordCounts.get, reverse=True)
-        outputLine = " ".join(sortedWordCounts[:5])
-        outputLine = groupName.capitalize() + " summarized as " + outputLine
-        self.send_to_whatsapp_id("WACAO!",outputLine)
+                inputLine = inputLine + message['message'] + '. '
+        # blob = TextBlob(inputLine)
+        # wordCounts = blob.word_counts
+        # sortedWordCounts = sorted(wordCounts, key=wordCounts.get, reverse=True)
+        # outputLine = " ".join(sortedWordCounts[:5])
+        # outputLine = groupName.capitalize() + " summarized as " + outputLine
+        # self.send_to_whatsapp_id("WACAO!",outputLine)
 
         LANGUAGE = "english"
         SENTENCES_COUNT = '20%'
 
+        outputLine = groupName.capitalize() + " summarized as: \n"
         parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         stemmer = Stemmer(LANGUAGE)
         summarizer = Summarizer(stemmer)
         summarizer.stop_words = get_stop_words(LANGUAGE)
         for sentence in summarizer(parser.document, SENTENCES_COUNT):
-            print(sentence)
+            outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        self.send_to_whatsapp_id("WACAO!",outputLine)
 
         # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         # stemmer = Stemmer(LANGUAGE)
@@ -259,7 +261,7 @@ class WhatsAPIDriver(object):
                     messages = chat[0]['messages']
                     for message in messages:
                         # Create a hash-key that is used to uniquely identify a message. It's timestamp plus message text 
-                        key = str(message['timestamp']) + '-' + str(message['message'])
+                        key = str(message['timestamp']) + '-' + message['message'].encode('utf-8','ignore')
                         # If this particular message/time has been seen then don't take any action
                         if key in messageSeen:
                             continue
