@@ -1,3 +1,6 @@
+# Inspired from the original project by mukulhase available here - https://github.com/mukulhase/WebWhatsAPI
+# Used to create WACAO - the Whatsapp Chat Assistant at Techcrunch Disrupt Berlin Hackathon
+
 # [WIP] WhatsAPI (Based on web.whatsapp)
 
 ## What is it?
