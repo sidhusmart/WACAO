@@ -19,7 +19,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.sum_basic import SumBasicSummarizer as Summarizer
-#from sumy.summarizers.lsa import LsaSummarizer as Summarizer
+from sumy.summarizers.kl import KLSummarizer
+from sumy.summarizers.lex_rank import LexRankSummarizer
+from sumy.summarizers.lsa import LsaSummarizer
+from sumy.summarizers.luhn import LuhnSummarizer
+from sumy.summarizers.random import RandomSummarizer
+from sumy.summarizers.text_rank import TextRankSummarizer
 #from sumy.summarizers.edmundson import EdmundsonSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
@@ -246,11 +251,90 @@ class WhatsAPIDriver(object):
         outputLine = groupName.capitalize() + " summarized as: \n"
         parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         stemmer = Stemmer(LANGUAGE)
-        summarizer = Summarizer(stemmer)
+        summarizer = LsaSummarizer(stemmer)
         summarizer.stop_words = get_stop_words(LANGUAGE)
         for sentence in summarizer(parser.document, SENTENCES_COUNT):
             outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
         self.send_to_whatsapp_id("WACAO!",outputLine)
+        # print "sum_basic:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = KLSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "KLSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LexRankSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LexRankSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LsaSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LsaSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LuhnSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LuhnSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LuhnSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LuhnSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = RandomSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "RandomSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = TextRankSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "TextRankSummarizer:"
+        # print outputLine        
 
         # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         # stemmer = Stemmer(LANGUAGE)
