@@ -25,7 +25,7 @@ for (chat in Chats) {
     temp.messages = [];
     console.log("K1: ",temp.contact)
     console.log("K2: ",contact)
-    if(typeof temp.contact != 'undefined' && temp.contact.search(contact)!=-1){
+    if(typeof temp.contact != 'undefined' && temp.contact.toLowerCase().search(contact)!=-1){
         console.log("Into:")
         var messages = Chats[chat].msgs.models;
         for (var i = messages.length - 1; i >= 0; i--) {

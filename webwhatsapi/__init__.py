@@ -186,27 +186,37 @@ class WhatsAPIDriver(object):
 
     def summarizeChats(self, text):
         summarizeKeyword = 'summarize -'
-        messageCountKeyword = 'for last'
-        chatKeyword = 'chats'
 
         text = text.lower()
 
         groupStart = text.index(summarizeKeyword)
-        countStart = text.index(messageCountKeyword)
-        countEnd = text.index(chatKeyword)
 
-        groupName = text[groupStart+11:countStart].strip()
-        chatHistory = text[countStart+8:countEnd].strip()
+        groupName = text[groupStart+11:].strip()
 
-        print groupName
-        print chatHistory
-        chats = self.get_n_messages(groupName, chatHistory)
+        self.view_unread_from_group(groupName)
 
-        print chats
-        messages = chats['messages']
-        print "Length: " + len(messages)
+    def view_unread_from_group(self, groupName):
+        try:
+            script_path = os.path.dirname(os.path.abspath(__file__))
+        except NameError:
+            script_path = os.getcwd()
+        script = open(os.path.join(script_path, "js_scripts/get_unread_messages_from_group.js"), "r").read()
+        Store = self.driver.execute_script(script, groupName)
+        messages = Store[0]['messages']
+        self.analyzeChats(messages, groupName)
+
+    def analyzeChats(self, messages, groupName):
+        # WordCount Implementation
+        inputLine = ''
         for message in messages:
-            print message['message']
+            if '\\/' not in message:
+                inputLine = inputLine + message['message'] + ' '
+        blob = TextBlob(inputLine)
+        wordCounts = blob.word_counts
+        sortedWordCounts = sorted(wordCounts, key=wordCounts.get, reverse=True)
+        outputLine = " ".join(sortedWordCounts[:5])
+        outputLine = groupName.capitalize() + " summarized as " + outputLine
+        self.send_to_whatsapp_id("WACAO!",outputLine)
 
     def monitorWACAO(self):
         try:
@@ -262,16 +272,6 @@ class WhatsAPIDriver(object):
                     self.send_to_whatsapp_id('Test group',m)
                     i = i + 1
 
-    def view_unread_from_group(self):
-        try:
-            script_path = os.path.dirname(os.path.abspath(__file__))
-        except NameError:
-            script_path = os.getcwd()
-        script = open(os.path.join(script_path, "js_scripts/get_unread_messages_from_group.js"), "r").read()
-        Store = self.driver.execute_script(script, "Test")
-        print Store
-        messages = Store['messages']
-        for message in messages:
-            print message['message']
+
 
 
