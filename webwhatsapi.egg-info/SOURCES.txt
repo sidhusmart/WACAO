@@ -14,6 +14,7 @@ webwhatsapi/js_scripts/contactfromnumber.js
 webwhatsapi/js_scripts/get_all_messages.js
 webwhatsapi/js_scripts/get_n_messages.js
 webwhatsapi/js_scripts/get_unread_messages.js
+webwhatsapi/js_scripts/get_unread_messages_from_group.js
 webwhatsapi/js_scripts/send_message_to_phone_number.js
 webwhatsapi/js_scripts/send_message_to_whatsapp_id.js
 webwhatsapi/js_scripts/temp

@@ -15,6 +15,19 @@ from selenium.webdriver.common.proxy import Proxy, ProxyType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.sum_basic import SumBasicSummarizer as Summarizer
+from sumy.summarizers.kl import KLSummarizer
+from sumy.summarizers.lex_rank import LexRankSummarizer
+from sumy.summarizers.lsa import LsaSummarizer
+from sumy.summarizers.luhn import LuhnSummarizer
+from sumy.summarizers.random import RandomSummarizer
+from sumy.summarizers.text_rank import TextRankSummarizer
+#from sumy.summarizers.edmundson import EdmundsonSummarizer as Summarizer
+from sumy.nlp.stemmers import Stemmer
+from sumy.utils import get_stop_words
+
 from textblob import TextBlob
 
 class WhatsAPIDriver(object):
@@ -184,19 +197,152 @@ class WhatsAPIDriver(object):
         self.send_to_whatsapp_id(contactDetect,translatedText)
         self._translateContacts.append(contactDetect)
 
-    def summarizeChats(self, text):
-        summarizeKeyword = 'summarize -'
-        messageCountKeyword = 'for last'
-        chatKeyword = 'chats'
+    def wishBirthday(self, text):
+        summarizeKeyword = 'hbd -'
+
+        text = text.lower()
 
         groupStart = text.index(summarizeKeyword)
-        countStart = text.index(messageCountKeyword)
-        countEnd = text.index(chatKeyword)
+
+        groupName = text[groupStart+6:].strip()
+
+        birthdayMessage = "Hey " + groupName + ", Here's wishing you a great birthday. Hope you have many many wonderful years ahead"
+
+        self.send_to_whatsapp_id(groupName, birthdayMessage)
+
+    def summarizeChats(self, text):
+        summarizeKeyword = 'summarize -'
+
+        text = text.lower()
+
+        groupStart = text.index(summarizeKeyword)
 
         groupName = text[groupStart+11:].strip()
-        chatHistory = text[countStart+8:countEnd].strip()
 
+        self.view_unread_from_group(groupName)
 
+    def view_unread_from_group(self, groupName):
+        try:
+            script_path = os.path.dirname(os.path.abspath(__file__))
+        except NameError:
+            script_path = os.getcwd()
+        script = open(os.path.join(script_path, "js_scripts/get_unread_messages_from_group.js"), "r").read()
+        Store = self.driver.execute_script(script, groupName)
+        messages = Store[0]['messages']
+        self.analyzeChats(messages, groupName)
+
+    def analyzeChats(self, messages, groupName):
+        # WordCount Implementation
+        inputLine = ''
+        for message in messages:
+            if '\\/' not in message:
+                inputLine = inputLine + message['message'] + '. '
+        # blob = TextBlob(inputLine)
+        # wordCounts = blob.word_counts
+        # sortedWordCounts = sorted(wordCounts, key=wordCounts.get, reverse=True)
+        # outputLine = " ".join(sortedWordCounts[:5])
+        # outputLine = groupName.capitalize() + " summarized as " + outputLine
+        # self.send_to_whatsapp_id("WACAO!",outputLine)
+
+        LANGUAGE = "english"
+        SENTENCES_COUNT = '20%'
+
+        outputLine = groupName.capitalize() + " summarized as: \n"
+        parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        stemmer = Stemmer(LANGUAGE)
+        summarizer = LsaSummarizer(stemmer)
+        summarizer.stop_words = get_stop_words(LANGUAGE)
+        for sentence in summarizer(parser.document, SENTENCES_COUNT):
+            outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        self.send_to_whatsapp_id("WACAO!",outputLine)
+        # print "sum_basic:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = KLSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "KLSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LexRankSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LexRankSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LsaSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LsaSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LuhnSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LuhnSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = LuhnSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "LuhnSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = RandomSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "RandomSummarizer:"
+        # print outputLine
+
+        ## Trying different parsers
+        # outputLine = groupName.capitalize() + " summarized as: \n"
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = TextRankSummarizer(stemmer)
+        # summarizer.stop_words = get_stop_words(LANGUAGE)
+        # for sentence in summarizer(parser.document, SENTENCES_COUNT):
+        #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
+        # print "TextRankSummarizer:"
+        # print outputLine        
+
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = Summarizer(stemmer)
+        # summarizer.null_words = get_stop_words(LANGUAGE)
+        # summarizer.bonus_words = parser.significant_words
+        # summarizer.stigma_words = parser.stigma_words
+        # for sentence in Summarizer(inputLine, SENTENCES_COUNT):
+        #     print sentence
 
     def monitorWACAO(self):
         try:
