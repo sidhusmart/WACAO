@@ -20,11 +20,10 @@ for (chat in Chats) {
         continue;
     };
     var temp = {};
+    console.log("K3: ",Chats)
     temp.contact = Chats[chat].__x_formattedTitle;
     temp.id = Chats[chat].__x_id;
     temp.messages = [];
-    console.log("K1: ",temp.contact)
-    console.log("K2: ",contact)
     if(typeof temp.contact != 'undefined' && temp.contact.toLowerCase().search(contact)!=-1){
         console.log("Into:")
         var messages = Chats[chat].msgs.models;
