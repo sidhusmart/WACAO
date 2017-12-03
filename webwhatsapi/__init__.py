@@ -1,6 +1,7 @@
 """
 WhatsAPI module
 """
+# -*- coding: utf-8 -*-
 
 #from __future__ import print_function
 
@@ -24,6 +25,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.random import RandomSummarizer
 from sumy.summarizers.text_rank import TextRankSummarizer
+#from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 #from sumy.summarizers.edmundson import EdmundsonSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
@@ -37,7 +39,7 @@ class WhatsAPIDriver(object):
 
     _SELECTORS = {
         'firstrun': "#wrapper",
-        'qrCode': "img[alt=\"Scan me !\"]",
+        'qrCode': "._2EZ_m > img:nth-child(4)",
         'mainPage': ".app.two",
         'chatList': ".infinite-list-viewport",
         'messageList': "#main > div > div:nth-child(1) > div > div.message-list",
@@ -251,6 +253,7 @@ class WhatsAPIDriver(object):
         parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         stemmer = Stemmer(LANGUAGE)
         summarizer = LsaSummarizer(stemmer)
+        summarizer = Summarizer(stemmer)
         summarizer.stop_words = get_stop_words(LANGUAGE)
         for sentence in summarizer(parser.document, SENTENCES_COUNT):
             outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
@@ -334,6 +337,8 @@ class WhatsAPIDriver(object):
         #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
         # print "TextRankSummarizer:"
         # print outputLine        
+=======
+>>>>>>> ba3e324466c708eb0c7e72578e951e554f0f470d
 
         # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         # stemmer = Stemmer(LANGUAGE)
@@ -357,7 +362,7 @@ class WhatsAPIDriver(object):
                     messages = chat[0]['messages']
                     for message in messages:
                         # Create a hash-key that is used to uniquely identify a message. It's timestamp plus message text 
-                        key = str(message['timestamp']) + '-' + str(message['message'])
+                        key = str(message['timestamp']) + '-' + message['message'].encode('utf-8','ignore')
                         # If this particular message/time has been seen then don't take any action
                         if key in messageSeen:
                             continue
@@ -371,6 +376,8 @@ class WhatsAPIDriver(object):
                                 self.translateMessage(text)
                             if ('Summarize' in text):
                                 self.summarizeChats(text)
+                            if ('HBD' in text):
+                                self.wishBirthday(text)
 
                 # Listening to incoming messages for task specific responses
                 incomingChats = self.view_unread()
@@ -386,5 +393,7 @@ class WhatsAPIDriver(object):
                 time.sleep(5)
         except KeyboardInterrupt:
             print "Exited"
+
+
 
 
