@@ -27,7 +27,7 @@ for (chat in Chats) {
                 continue
             }
             temp.messages.push({
-                message: messages[i].__x_body,
+                message: unescape(messages[i].__x_body),
                 timestamp: messages[i].__x_t
             });
         }
