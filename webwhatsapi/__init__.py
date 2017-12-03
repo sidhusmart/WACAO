@@ -1,6 +1,7 @@
 """
 WhatsAPI module
 """
+# -*- coding: utf-8 -*-
 
 #from __future__ import print_function
 
@@ -14,6 +15,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.sum_basic import SumBasicSummarizer as Summarizer
+#from sumy.summarizers.lsa import LsaSummarizer as Summarizer
+#from sumy.summarizers.edmundson import EdmundsonSummarizer as Summarizer
+from sumy.nlp.stemmers import Stemmer
+from sumy.utils import get_stop_words
 
 from textblob import TextBlob
 
@@ -218,6 +227,25 @@ class WhatsAPIDriver(object):
         outputLine = groupName.capitalize() + " summarized as " + outputLine
         self.send_to_whatsapp_id("WACAO!",outputLine)
 
+        LANGUAGE = "english"
+        SENTENCES_COUNT = '20%'
+
+        parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        stemmer = Stemmer(LANGUAGE)
+        summarizer = Summarizer(stemmer)
+        summarizer.stop_words = get_stop_words(LANGUAGE)
+        for sentence in summarizer(parser.document, SENTENCES_COUNT):
+            print(sentence)
+
+        # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
+        # stemmer = Stemmer(LANGUAGE)
+        # summarizer = Summarizer(stemmer)
+        # summarizer.null_words = get_stop_words(LANGUAGE)
+        # summarizer.bonus_words = parser.significant_words
+        # summarizer.stigma_words = parser.stigma_words
+        # for sentence in Summarizer(inputLine, SENTENCES_COUNT):
+        #     print sentence
+
     def monitorWACAO(self):
         try:
             # Creating a dictionary to store already seen messages
@@ -260,17 +288,6 @@ class WhatsAPIDriver(object):
                 time.sleep(5)
         except KeyboardInterrupt:
             print "Exited"
-
-    def createDummyData(self):
-        script_path = os.getcwd()
-        f = open(os.path.join(script_path, "text.txt"), "r")
-        for line in f:
-            msg = line.split()
-            i = 0
-            for m in msg:
-                if i < 40:
-                    self.send_to_whatsapp_id('Test group',m)
-                    i = i + 1
 
 
 
