@@ -18,12 +18,14 @@ for (chat in Chats) {
         continue;
     };
     var temp = {};
+    console.log("Key: ",Object.entries(Chats[chat]))
     temp.contact = Chats[chat].__x_name;
     temp.id = Chats[chat].__x_id;
     temp.messages = [];
-    if(typeof temp.contact != 'undefined' && temp.contact.search(contact)!=-1){
+    if(typeof temp.contact != 'undefined' && temp.contact.toLowerCase().search(contact)!=-1){
         var messages = Chats[chat].msgs.models;
-        for (var i = messages.length - 1; i >= numberOfMsg; i--) {
+        console.log("Count: ",messages.length)
+        for (var i = messages.length - 1; i >= 0; i--) {
             if (!isChatMessage(messages[i])) {
                 continue
             }
