@@ -1,7 +1,7 @@
 
 ## WACAO - the Whatsapp Chat Assistant created at TechCrunch Disrupt Berlin Hackathon 2017 and featured [here](https://techcrunch.com/2017/12/03/wacao-is-an-assistant-that-can-summarize-and-translate-your-whatsapp-chats/)
 
-This project uses the Whatapp project by mukulhase available [here](https://github.com/mukulhase/WebWhatsAPI)
+This project uses the Whatapp API by mukulhase available [here](https://github.com/mukulhase/WebWhatsAPI)
 
 ### What is it?
 This package can be used to create a personal Whatsapp Chat Assistant that can
@@ -76,6 +76,7 @@ You will need to install [Gecko Driver](https://github.com/mozilla/geckodriver) 
 - Improve chat summarization
 - Add additional use cases for sharing photos across multiple groups and generating some cool chat statistics
 - Maybe create a web version that can be used by non-technical users (no clue on how to do this)
+- Please do provide your ideas and suggestions or if you would like to collaborate further on any features
 
 ` The idea of WACAO is only to serve as a chat assistant and help with personal workflows on Whatsapp. Please do not use this to create any kind of Spam bots! `
 
