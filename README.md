@@ -67,8 +67,3 @@ For scripting, to set a function to be called whenever a message is received, us
 -- User can access and send messages from anywhere without scanning qr anymore, just simple user login and password
 
 ` Limitation:- Phone has to be ON and connected to the internet `
-
-
-This is the README file for the project.
-# WACAO
-# WACAO
