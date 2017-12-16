@@ -1,11 +1,16 @@
-# Inspired from the original project by mukulhase available here - https://github.com/mukulhase/WebWhatsAPI
-# Used to create WACAO - the Whatsapp Chat Assistant at Techcrunch Disrupt Berlin Hackathon
 
-# [WIP] WhatsAPI (Based on web.whatsapp)
+# WACAO - the Whatsapp Chat Assistant created at TechCrunch Disrupt Berlin Hackathon 2017 and featured [here](https://techcrunch.com/2017/12/03/wacao-is-an-assistant-that-can-summarize-and-translate-your-whatsapp-chats/)
+
+This project uses the Whatapp project by mukulhase available [here](https://github.com/mukulhase/WebWhatsAPI)
 
 ## What is it?
-This package is used to provide a python interface for interacting with WhatsAPP Web to send and recieve Whatsapp messages.
+This package can be used to create a personal Whatsapp Chat Assistant that can
 
+- be used to chat with a contact on Whatsapp in a foreign language without leaving Whatsapp
+- be used to Summarize chats from a Whatsapp group, saves you reading many unread messages
+- be used to send customized 'Happy Birthday' messages to your friends [WIP] 
+- be used to send Away/Do Not Disturb messages when you're not near the phone [WIP]
+- provide interesting statistics on your chats [WIP]
 
 ## Installation
 
