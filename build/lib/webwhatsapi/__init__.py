@@ -25,6 +25,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.random import RandomSummarizer
 from sumy.summarizers.text_rank import TextRankSummarizer
+#from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 #from sumy.summarizers.edmundson import EdmundsonSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
@@ -252,6 +253,7 @@ class WhatsAPIDriver(object):
         parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         stemmer = Stemmer(LANGUAGE)
         summarizer = LsaSummarizer(stemmer)
+        summarizer = Summarizer(stemmer)
         summarizer.stop_words = get_stop_words(LANGUAGE)
         for sentence in summarizer(parser.document, SENTENCES_COUNT):
             outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
