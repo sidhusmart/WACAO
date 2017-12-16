@@ -3,3 +3,5 @@ bs4>=0.0.1
 python-dateutil>=2.6.0
 selenium>=3.4.3
 six>=1.10.0
+textblob>=0.14.0
+sumy>=0.7.0
