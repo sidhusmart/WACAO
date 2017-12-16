@@ -34,12 +34,39 @@ You will need to install [Gecko Driver](https://github.com/mozilla/geckodriver) 
 
 - Next step is to create a group called WACAO with only yourself in it - 
 	- The way to do this is to create a new group with another contact and once the group has been created, remove that contact
-	- Make sure to create this person with some close contact so there aren't awkward questions later :)
+	- Make sure to create this group with some close contact so there aren't awkward questions later :)
 	- Name this group as WACAO
 
-- And now, we can start monitoring for messages on the WACAO group
+- And now, we can start the chat assistant to start listening for instructions 
 
 ` driver.monitorWACAO() `
+
+## Translation:
+
+- Instruction format - "Translate to <language> - <your_message> and send to <contact_name>"
+	- Example- "Translate to Spanish - Can we meet for coffee today? and send to Samuel"
+	- Example- "Translate to Japanese - Do you like Sushi? and send to Nina"
+- Currently following languages are supported - Spanish, German, English, French, Greek, Italian and Japanese. (But this is just a configuration change that can be added)
+- The message in the language will be sent to the specific person in that chat and his/her replies will also be available there in the translated language
+- However, in the WACAO chat you will also get back the translated message in English (default can be changed) so you can continue chatting from within the chat assistant
+	- Example- "Samuel replied - Yeah sure, why not. At 5 today?"
+	- Example- "Nina replied - No, I'm not a big fan"
+
+## Chat Summarization:
+
+- Instruction format - "Summarize <group_name>"
+	- Example- "Summarize Analytics"
+	- It's not necessary to provide the full group name, some part of the group name should be present
+- You will receive a message that says - "Analytics summarized as: " followed by the summary of the messages in the group
+	- There are several ways in which this summarization can be done and it currently uses an LSA Summarizer from the SUMY package
+	- You can evaluate other summarizers to see which works best
+	- I plan to research better techniques of achieving this summarization
+
+## Happy Birthday Templates:
+
+- Instruction format - "HBD <contact_name>"
+	- Example- "HBD Samuel"
+	- This will send the default configured Happy Birthday message to your contact. Message can be changed
 
 
 ` Limitation:- Phone has to be ON and connected to the internet `
