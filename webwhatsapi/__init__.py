@@ -337,8 +337,6 @@ class WhatsAPIDriver(object):
         #     outputLine = outputLine + unicode(str(sentence), "utf-8") + "\n"
         # print "TextRankSummarizer:"
         # print outputLine        
-=======
->>>>>>> ba3e324466c708eb0c7e72578e951e554f0f470d
 
         # parser = PlaintextParser.from_string(inputLine, Tokenizer(LANGUAGE))
         # stemmer = Stemmer(LANGUAGE)
