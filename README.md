@@ -1,5 +1,6 @@
 
 ## WACAO - the Whatsapp Chat Assistant created at TechCrunch Disrupt Berlin Hackathon 2017 and featured [here](https://techcrunch.com/2017/12/03/wacao-is-an-assistant-that-can-summarize-and-translate-your-whatsapp-chats/)
+## WACAO is also live on the interwebs, check it out [here](http://www.wacai.in)
 
 This project uses the Whatapp API by mukulhase available [here](https://github.com/mukulhase/WebWhatsAPI)
 
