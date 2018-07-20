@@ -13,7 +13,7 @@ This package can be used to create a personal Whatsapp Chat Assistant that can
 - Summarize chats from a Whatsapp group, saves you time from reading many unread messages
 - Send customized 'Happy Birthday' messages to your friends
 - Send Away/Do Not Disturb messages when you're not near the phone [WIP]
-- provide interesting statistics on your chats [WIP]
+- Provide interesting statistics on your chats [WIP]
 
 ## Installation
 
